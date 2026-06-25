@@ -177,3 +177,9 @@ body {
 .btn-primary:hover {
     opacity: 0.9;
 }
+.project-preview {
+    width: 30%;
+    height: 180px;
+    border: none;
+    border-bottom: 1px solid #333;
+}
