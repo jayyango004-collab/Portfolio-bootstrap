@@ -189,3 +189,18 @@ body {
 .project-preview{
     border:none;
 }
+
+/* ===== Global Hover Lift ===== */
+
+.project-card,
+.about-card,
+.contact-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover,
+.about-card:hover,
+.contact-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+}
