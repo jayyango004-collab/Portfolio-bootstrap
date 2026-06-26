@@ -300,3 +300,8 @@ body {
 .project-card {
     animation: neonPulse 4s infinite;
 }
+
+footer {
+    background: rgba(10, 10, 15, 0.8);
+    color: #a1a1aa;
+}
