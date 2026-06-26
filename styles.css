@@ -305,3 +305,43 @@ footer {
     background: rgba(10, 10, 15, 0.8);
     color: #a1a1aa;
 }
+
+@media print {
+    nav, footer, .btn {
+        display: none;
+    }
+
+    body {
+        background: white;
+        color: black;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: #f4f4f5;
+        --text: #18181b;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: #f4f4f5;
+        --text: #18181b;
+        --card: #ffffff;
+        --muted: #4b5563;
+        --accent: #2563eb;
+    }
+
+    body {
+        background: var(--bg);
+        color: var(--text);
+    }
+
+    .project-card,
+    .about-card,
+    .contact-card {
+        background: var(--card);
+        border: 1px solid rgba(0,0,0,0.1);
+    }
+}
